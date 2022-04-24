@@ -1,38 +1,488 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Roboto";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/*
+.custom-card {
+  /* Add shadows to create the "card" effect 
+  margin: 5px;
+  height: 30vh;
+  width: 12vw;
+  padding: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.contain {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.head-div-sales {
+  flex: 1;
+  /* width: 100%;
+  height: auto;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  padding: 7px;
+  /* border: 2px solid black; 
+  border-bottom: #c2c0c0 1px solid;
+}
+
+.head-div-arrivals {
+  margin: 5px;
+  margin-top: auto;
+  margin-bottom: 1px;
+  padding: 7px;
+  height: 7vh;
+  /* border: 2px solid black;
+  border-bottom: #c2c0c0 1px solid;
+}
+
+.head-div-featured {
+  margin: 5px;
+  margin-top: auto;
+  margin-bottom: 1px;
+  padding: 7px;
+  height: 7vh;
+  /* border: 2px solid black;
+  border-bottom: #c2c0c0 1px solid;
+}
+
+.img-des-price-container {
+  display: flex;
+  float: left;
+  height: auto;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 5px;
+  margin-top: 2px;
+  padding: 5px;
+  /* border: 2px solid red;
+}
+
+.single-card {
+  justify-self: center;
+  width: 25vw;
+  height: auto;
+  margin: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  /* border: 2px solid green;
+}
+
+.card-image {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 10px;
+  height: 33vh;
+  width: 100%;
+}
+
+.single-card:hover {
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.5);
+}
+
+.price-and-rating {
+  display: inline-block;
+}
+
+.rating {
+  margin: 2px;
+  margin-left: 1px;
+}
+
+.tool-category:hover {
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer CSS 
+
+.footer {
+  margin-top: 20px;
+  padding: 2px;
+  display: flex;
+  float: left;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(17, 17, 41);
+}
+
+.footer-div1 {
+  margin: 2px;
+  display: block;
+  justify-content: center;
+  width: 40vw;
+  /* border: 2px solid black; 
+}
+
+.footer-div2 {
+  margin: 2px;
+  width: 25vw;
+  /* border: 1px solid green; */
+  /* padding: 10px; 
+}
+
+.footer-div3 {
+  margin: 2px;
+  width: auto;
+  /* border: 1px solid yellow; 
+}
+
+.footer-row1,
+.footer-row2 {
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  height: 28vh;
+  width: 95%;
+  margin-left: 13px;
+  margin-top: 5px;
+  /* border: 1px solid white; 
+}
+
+.customer-care,
+.deal-ker,
+.about-us,
+.our-services {
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  width: 20vw;
+  height: auto;
+  font-size: 20px;
+  /* border: 2px solid red; 
+}
+
+.footer-card-title {
+  color: orange;
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer-card-body {
+  text-align: start;
+  color: white;
+  font-size: 15px;
+}
+
+.social-icon,
+.payment,
+.verified {
+  height: 17vh;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.follow-us {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-logos {
+  display: flex;
+  float: left;
+  /* border: 1px solid white; 
+  height: auto;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facebook,
+.instagram,
+.twitter,
+.youtube {
+  margin: 5px;
+  padding: 7px;
+  margin-left: 15px;
+  width: 50px;
+  height: auto;
+  /* border: 1px solid black; 
 }
+
+.barcode {
+  margin: 3px;
+  margin-top: 30px;
+  height: 20vh;
+  /* border: 1px solid red; 
+}
+
+.barcode-img{
+  margin: 2px;
+  margin-left: 100px;
+  height: 19vh;
+  width: 10vw;
+  /* border: 1px solid yellow; 
+}
+
+.app-links{
+  margin: 3px;
+  margin-top: 30px;
+  height: 28vh;
+  /* border: 1px solid red; 
+}
+
+.app-links-img{
+  margin: 3px;
+  height: 26.5vh;
+  /* border: 1px solid orange 
+}
+
+.app-store {
+  margin: 2px;
+  padding: 5px;
+  height: 25vh;
+  width: auto;
+}
+
+.verified{
+font-weight: bold;
+  display: inline-block;
+  align-items: center;
+}
+
+/* Login Page 
+.login{
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.get-started{
+  padding: 3px;
+  height: 7vh;
+  width: auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  /* border: 2px solid black; 
+}
+
+.welcome{
+  height: 8vh;
+  width: auto;
+  padding: 2px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border: 2px solid black; 
+}
+
+.signin{
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  height: 60vh;
+  width: 100%;
+  /* border: 2px solid red; 
+}
+
+.input{
+  margin: 1px;
+  height: 100%;
+  width: 47%;
+  /* border: 1px solid yellow; 
+}
+
+.or-text{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+} 
+
+.signin-heading{
+  margin-top: 20px;
+  text-align: center;
+  padding: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  /* border: 1px solid orangered; 
+}
+
+.email-pass{
+  margin-top: 10px;
+  padding: 5px;
+  /* border: 1px solid purple; 
+}
+
+.input-email, .input-password{
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  height: 7vh;
+  width: 20vw;
+  background-color: gray;
+  border-radius: 10px;
+  /* border: 1px solid black; 
+  cursor: pointer;
+}
+
+::placeholder{
+  color: black;
+  font-weight: 600;
+}
+
+.forget-pas{
+  padding-left: 180px;
+  height: 6vh;
+  cursor: pointer;
+  /* border: 1px solid brown; 
+}
+
+.login-signup{
+  margin-top: 5px;
+  padding: 5px;
+  height: 15vh;
+  text-align: center;
+  /* border: 1px solid teal; 
+}
+
+.login-btn{
+  display: block;
+  height: 5vh;
+  width: 20vw;
+  margin: 2px auto;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(23, 24, 43);
+}
+
+
+.goole-signin{
+  margin: 1px;
+  height: 100%;
+  width: 47%;
+  /* border: 1px solid green; 
+}
+
+
+.sign-with-facebook-google{
+  text-align: center;
+  margin-top: 65px;
+  height: 25vh;
+  cursor: pointer;
+  /* border: 1px solid red; 
+}
+
+.sign-facebook{
+  margin-top: 30px;
+  margin-left: 200px;
+  padding: 5px;
+  height: auto;
+  width: 20vw;
+  background-color: rgb(36, 51, 184);
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  /* border: 1px solid green; 
+}
+
+.terms{
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  height: 11vh;
+  /* border: 1px solid black; 
+}
+
+.terms-and-conditions{
+  margin-left: 180px;
+  /* border: 2px solid olive; 
+  height: 7vh;
+  width: 20vw;
+  font-size: 14px;
+}
+
+/* Signup page 
+
+.cover-signup{
+  height: 40vh;
+  width: 100%;
+  /* border: 1px solid red; 
+  display: block;
+}
+
+.sign-up{
+  margin: 10px 10%;
+  padding: 5px;
+  height: 31vh;
+  width: 80%;
+  display: flex;
+  float: left;
+  justify-content: space-evenly;
+  /* border: 2px solid black; 
+}
+
+.create-account{
+  padding: 3px;
+  margin-left: 10%;
+  height: 7vh;
+  width: 80%;
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+  /* border: 2px solid black; 
+}
+
+.already-account{
+  font-weight: 500;
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.col-one, .col-two{
+text-align: center;
+  height: 29vh;
+  width: 48%;
+  /* border: 1px solid green; 
+
+}
+
+.form-sigin-details{
+  margin: 3px;
+  padding: 2px;
+}
+
+.signup-input{
+  height: 5vh;
+  width: 25vw;
+  border-radius: 5px;
+  background-color: #8b7d77;
+  cursor: pointer;
+}
+
+.signbtns{
+  height: 21vh;
+  width: 100%;
+   border: 2px solid black; 
+  text-align: center;
+}
+
+.facebookdiv, .googlediv{
+  margin-top: 10px;
+  margin-left: 530px;
+  margin-right: 500px;
+  padding: 5px;
+  width: 20vw;
+  height: auto;
+  background-color: rgb(36, 51, 184);
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+*/

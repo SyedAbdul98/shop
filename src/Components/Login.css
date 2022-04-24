@@ -1,0 +1,156 @@
+
+/* Login Page */
+.login{
+    height: 100vh;
+    background-color: lightgray;
+  }
+  
+  .get-started{
+    padding: 3px;
+    height: 7vh;
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+  }
+  
+  .welcome{
+    height: 8vh;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+  }
+  
+  .signin{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    height: 60vh;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  
+  .input{
+    margin: 1px;
+    height: 100%;
+    width: 47%;
+    /* border: 1px solid yellow; */
+  }
+  
+  .or-text{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  } 
+  
+  .signin-heading{
+    margin-top: 20px;
+    text-align: center;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 1px solid orangered; */
+  }
+  
+  .email-pass{
+    margin-top: 10px;
+    padding: 5px;
+    /* border: 1px solid purple; */
+  }
+  
+  .input-email, .input-password{
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    height: 7vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+  }
+  
+  ::placeholder{
+    color: black;
+    font-weight: 600;
+  }
+  
+  .forget-pas{
+    padding-left: 180px;
+    height: 6vh;
+    cursor: pointer;
+    /* border: 1px solid brown; */
+  }
+  
+  .login-signup{
+    margin-top: 5px;
+    padding: 5px;
+    height: 15vh;
+    text-align: center;
+    /* border: 1px solid teal; */
+  }
+  
+  .login-btn{
+    display: block;
+    height: 5vh;
+    width: 20vw;
+    margin: 2px auto;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(23, 24, 43);
+  }
+  
+  
+  .goole-signin{
+    margin: 1px;
+    height: 100%;
+    width: 47%;
+    /* border: 1px solid green; */
+  }
+  
+  
+  .sign-with-facebook-google{
+    text-align: center;
+    margin-top: 65px;
+    height: 25vh;
+    cursor: pointer;
+    /* border: 1px solid red; */
+  }
+  
+  .sign-facebook{
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 5px;
+    height: auto;
+    width: 20vw;
+    background-color: rgb(36, 51, 184);
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    /* border: 1px solid green; */
+  }
+  
+  .terms{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+    height: 11vh;
+    /* border: 1px solid black; */
+  }
+  
+  .terms-and-conditions{
+    margin-left: 180px;
+    /* border: 2px solid olive; */
+    height: 7vh;
+    width: 20vw;
+    font-size: 14px;
+  }

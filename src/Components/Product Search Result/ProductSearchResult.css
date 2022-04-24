@@ -1,0 +1,64 @@
+.product-search-result{
+    height: 70vh;
+    width: 100%;
+    background-color: lightblue;
+}
+
+/* .categories{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 98vw;
+    padding: 5px;
+    margin: 5px;
+    font: bold;
+    border: 1px solid green;
+} */
+
+.category-text{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.dropdown{
+    margin: 2px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(219, 217, 217);
+}
+
+.sort{
+    font-weight: 700;
+}
+.sort-filter{
+
+    margin-right: 2px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(219, 217, 217);
+}
+
+.main-product-section{
+    margin-top: 50px;
+    height: 65vh;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.side-bar{
+    margin-top: 100px;
+    margin: 2px;
+    width: 200px;
+    height: 50vh;
+    border: 1px solid red;
+
+}
+
+.two{
+    height: 50vh;
+}
+

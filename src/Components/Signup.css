@@ -1,0 +1,80 @@
+
+.cover-signup{
+    height: 40vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: block;
+  }
+  
+  .sign-up{
+    margin: 10px 10%;
+    padding: 5px;
+    height: 31vh;
+    width: 80%;
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+  }
+  
+  .create-account{
+    padding: 3px;
+    margin-left: 10%;
+    height: 7vh;
+    width: 80%;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+    /* border: 2px solid black; */
+  }
+  
+  .already-account{
+    font-weight: 500;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  
+  .col-one, .col-two{
+  text-align: center;
+    height: 29vh;
+    width: 48%;
+    /* border: 1px solid green; */
+  
+  }
+  
+  .form-sigin-details{
+    margin: 3px;
+    padding: 2px;
+  }
+  
+  .signup-input{
+    height: 5vh;
+    width: 25vw;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .signbtns{
+    height: 21vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+  }
+  
+  .facebookdiv, .googlediv{
+    margin-top: 10px;
+    margin-left: 530px;
+    margin-right: 500px;
+    padding: 5px;
+    width: 20vw;
+    height: auto;
+    background-color: rgb(36, 51, 184);
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  

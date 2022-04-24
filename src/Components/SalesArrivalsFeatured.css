@@ -1,0 +1,82 @@
+.contain {
+    display: flex;
+  }
+  
+  .head-div-sales {
+    flex: 1;
+    /* width: 100%; */
+    height: auto;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding: 7px;
+    /* border: 2px solid black; */
+    border-bottom: #c2c0c0 1px solid;
+  }
+  
+  .head-div-arrivals {
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: 1px;
+    padding: 7px;
+    height: 7vh;
+    /* border: 2px solid black; */
+    border-bottom: #c2c0c0 1px solid;
+  }
+  
+  .head-div-featured {
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: 1px;
+    padding: 7px;
+    height: 7vh;
+    /* border: 2px solid black; */
+    border-bottom: #c2c0c0 1px solid;
+  }
+  
+  .img-des-price-container {
+    display: flex;
+    float: left;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 5px;
+    margin-top: 2px;
+    padding: 5px;
+    /* border: 2px solid red; */
+  }
+  
+  .single-card {
+    justify-self: center;
+    width: 25vw;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: 2px solid green; */
+  }
+  
+  .card-image {
+    justify-content: center;
+    border-radius: 10px;
+    height: 33vh;
+    width: 100%;
+  }
+  
+  .single-card:hover {
+    box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .price-and-rating {
+    display: inline-block;
+  }
+  
+  .rating {
+    margin: 2px;
+    margin-left: 1px;
+  }
+  
+  .tool-category:hover {
+    box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.5);
+  }
+  
